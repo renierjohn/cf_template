@@ -1,7 +1,7 @@
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
-function TabGroup() {
+function Group_Tab() {
   return (
     <Tabs
       defaultActiveKey="profile"
@@ -24,4 +24,4 @@ function TabGroup() {
   );
 }
 
-export default TabGroup;
+export default Group_Tab;

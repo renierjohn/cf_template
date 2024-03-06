@@ -1,18 +1,18 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Alert from './Alert_component';
-import Accordion from './Accordion_component';
-import Breadcrumb from './Breadcrumb_component';
-import Card from './Card_component';
-import Carousel from './Carousel_component';
-import Image from './Image_component';
-import Table from './Table_component';
+import Alert from './Component_Alert';
+import Accordion from './Component_Accordion';
+import Breadcrumb from './Component_Breadcrumb';
+import Card from './Component_Card';
+import Carousel from './Component_Carousel';
+import Image from './Component_Image';
+import Table from './Component_Table';
 
-import TabGroup from './TabGroup';
-import ListGroup from './ListGroup';
+import TabGroup from './Group_Tab';
+import ListGroup from './Group_List';
 
-function Content(data) {
+function Layout_Content(data) {
   const card_data = [
     {
       'title': 'Card Title A',
@@ -130,4 +130,4 @@ function Content(data) {
   )
 }
 
-export default Content;
+export default Layout_Content;

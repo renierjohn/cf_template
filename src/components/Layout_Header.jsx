@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function Header() {
+function Layout_Header(props) {
   return(
     <>
       <Navbar expand="lg" className="bg-body-tertiary">
@@ -15,7 +15,7 @@ function Header() {
               width="30"
               height="30"
               className="d-inline-block align-top"
-            />{' '}
+            />
             React Bootstrap
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -35,9 +35,9 @@ function Header() {
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
-             <Navbar.Text>
-            Signed in as: <a href="#login">Mark Otto</a>
-          </Navbar.Text>
+            <Navbar.Text>
+              Signed in as: <a href="#login">Mark Otto</a>
+           </Navbar.Text>
           </Navbar.Collapse>
         </Container>
       </Navbar>
@@ -45,4 +45,4 @@ function Header() {
   )
 }
 
-export default Header;
+export default Layout_Header;

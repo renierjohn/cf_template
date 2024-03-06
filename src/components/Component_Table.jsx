@@ -1,6 +1,6 @@
 import Table from 'react-bootstrap/Table';
 
-function Table_component(data) {
+function Component_Table(data) {
   return(
     <>
      <Table striped bordered hover variant="dark">
@@ -36,4 +36,4 @@ function Table_component(data) {
   )
 }
 
-export default Table_component;
+export default Component_Table;
